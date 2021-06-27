@@ -29,7 +29,9 @@ py memoirepipeline.py [nb_bancs] [tps_exec] [nb_iter] [coef2,coef1,...] [pst_ini
 ## Exemple d'utilisation
 Pour l'énoncé suivant :
 ```c
-// On dispose d’une mémoire organisée en 4 bancs, numérotés de 0 à 3 (chacun de cycle 4T) et fonctionnant en mode pipeline (i.e. capable de fournir en régime maximal un mot à chaque T). On considère le code suivant :
+// On dispose d’une mémoire organisée en 4 bancs, numérotés de 0 à 3 (chacun de cycle 4T)
+// et fonctionnant en mode pipeline (i.e. capable de fournir en régime maximal un mot à chaque T).
+// On considère le code suivant :
 for (i=0 ; i < 1000 ; i++)
     f(A[i],B[2*i+1],C[2*i]);
 ```
